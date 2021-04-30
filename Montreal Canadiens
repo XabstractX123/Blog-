@@ -64,7 +64,7 @@ body {
 }
 
 
-@media screen and (max-width: 800px) {
+ {
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
@@ -88,6 +88,7 @@ body {
       <p>	The Montreal Canadiens have been going through a rough patch with three losses in their last five games. During these five games, Montreal has only scored eight goals. The Habs had a great start to the season, they were first in the National Hockey League for a short time. During the game against Ottawa, at the Bell Centre, on February 4th, the Canadiens wore their blue retro jerseys. They ended up not having a good game.</p>
     </div>
     <div class="card">
+	<h2>Struggles?</h2>
       <h5>April, 2021</h5>
     <img src=https://cms.nhl.bamgrid.com/images/photos/288400392/1024x576/cut.jpg width="800" height="333">
       <p>Some Hope?</p>
@@ -103,13 +104,19 @@ body {
 In New York, I went to a very big public school where I made a lot of friends. One of those friends, Fintan (his name), and I, meet up every summer to go to overnight camp for a couple of weeks.
 After a beautifull 4 year in New York, we moved to Montreal. I went to school at St. Georges elementary for the rest of elementary school. Now my Dad is a Lawyer and my Mom runs her own buisness 
 while my sister and I are both in high school!</p>
+
     </div>
     <div class="card">
       <h3>Follow Me</h3>
       <p>Instagram: @andrew_cherneski</p>
     </div>
   </div>
+	</div>
+	<div class="card">
+      <h3>Sources</h3>
+      <p>https://awinninghabit.com/2021/02/15/montreal-canadiens-the-curse-of-the-retro-jersey/</p>
+    </div>
+  </div>
 </div>
-
 </body>
 </html>
