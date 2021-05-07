@@ -15,6 +15,7 @@ body {
 
 
 .header {
+  font-family: monospace;
   padding: 30px;
   font-size: 40px;
   text-align: center;
@@ -22,7 +23,7 @@ body {
 }
 
 
-.leftcolumn {   
+.leftcolumn {
   float: left;
   width: 75%;
 }
@@ -64,8 +65,8 @@ body {
 }
 
 
- {
-  .leftcolumn, .rightcolumn {   
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
     width: 100%;
     padding: 0;
   }
@@ -83,40 +84,33 @@ body {
     <div class="card">
       <h2>The Curse of the Blue Jersey</h2>
       <h5>From March, 2021</h5>
-      <img src=https://www.tsn.ca/polopoly_fs/1.1611023!/fileimage/httpImage/image.jpg_gen/derivatives/landscape_620/montreal-canadiens-celebrate.jpg width="800" height="333">
+      <img src=https://www.tsn.ca/polopoly_fs/1.1611023!/fileimage/httpImage/image.jpg_gen/derivatives/landscape_620/montreal-canadiens-celebrate.jpg width="800" height="333" alt="Photo of Retro jerseys">
       <p>Is the Retro Jersey the Issue?</p>
       <p>	The Montreal Canadiens have been going through a rough patch with three losses in their last five games. During these five games, Montreal has only scored eight goals. The Habs had a great start to the season, they were first in the National Hockey League for a short time. During the game against Ottawa, at the Bell Centre, on February 4th, the Canadiens wore their blue retro jerseys. They ended up not having a good game.</p>
     </div>
     <div class="card">
-	<h2>Struggles?</h2>
       <h5>April, 2021</h5>
-    <img src=https://cms.nhl.bamgrid.com/images/photos/288400392/1024x576/cut.jpg width="800" height="333">
+    <img src=https://cms.nhl.bamgrid.com/images/photos/288400392/1024x576/cut.jpg width="800" height="333" alt="Photo of Captain Shea Weber">
       <p>Some Hope?</p>
-      <p>Alexander Romanov, who had been impressive at the start of the season, has begun to reveal that he is only 20 years old and vulnerable to errors. The pair, along with Brett Kulak, had a few shifts of two minutes or more where they were hemmed in their own zone due to their inability to move the puck up and out of their defensive zone. 
+      <p>Alexander Romanov, who had been impressive at the start of the season, has begun to reveal that he is only 20 years old and vulnerable to errors. The pair, along with Brett Kulak, had a few shifts of two minutes or more where they were hemmed in their own zone due to their inability to move the puck up and out of their defensive zone.
      Ben Chiarot, who was strong enough to play on the top two with Shea Weber last summer, is not the same player now. He seems to be less energetic on the ice and does not contribute as much defensively as he did last season, when he scored 9 goals and added 12 assists. Chiarot currently has one goal, three assists, and 28 penalty minutes.In the game against Edmonton, Shea Weber seemed to be slowing down. Is this a foreshadowing of what's to come with a hectic schedule?</p>
     </div>
   </div>
   <div class="rightcolumn">
     <div class="card">
       <h2>About Me</h2>
-      <img src="https://www.educatemagis.org/wp-content/uploads/schools/2015/01/Loyola-Montreal-cover-image.jpg" width="260" height="220">
+      <img src="https://www.educatemagis.org/wp-content/uploads/schools/2015/01/Loyola-Montreal-cover-image.jpg" width="260" height="220" alt="Photo of myt School, Loyola High School">
       <p>I was born on April 23 2005 in Ottawa. My parents at the time were both lawyers when my dad go a job offer in New York City. In 2007 my sister Nadia was born. The same year, we moved to NYC.
 In New York, I went to a very big public school where I made a lot of friends. One of those friends, Fintan (his name), and I, meet up every summer to go to overnight camp for a couple of weeks.
-After a beautifull 4 year in New York, we moved to Montreal. I went to school at St. Georges elementary for the rest of elementary school. Now my Dad is a Lawyer and my Mom runs her own buisness 
+After a beautifull 4 year in New York, we moved to Montreal. I went to school at St. Georges elementary for the rest of elementary school. Now my Dad is a Lawyer and my Mom runs her own buisness
 while my sister and I are both in high school!</p>
-
     </div>
     <div class="card">
       <h3>Follow Me</h3>
       <p>Instagram: @andrew_cherneski</p>
     </div>
   </div>
-	</div>
-	<div class="card">
-      <h3>Sources</h3>
-      <p>https://awinninghabit.com/2021/02/15/montreal-canadiens-the-curse-of-the-retro-jersey/</p>
-    </div>
-  </div>
 </div>
+
 </body>
 </html>
